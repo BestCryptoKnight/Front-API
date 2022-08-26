@@ -1,0 +1,321 @@
+.home {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.wel {
+    font-family: 'Roboto';
+    position: absolute;
+    top: 355px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 26px;
+    /* or 27% */
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.subwel {
+    font-family: 'Roboto';
+    position: absolute;
+    font-style: normal;
+    top: 478px;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 20px;
+    /* identical to box height, or 59% */
+    letter-spacing: -1.5px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.a_btn {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    position: absolute;
+    top: 544px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    background-color: #7B1FA2;
+}
+
+input[type=text] {
+    width: 30%;
+    border: 2px solid blue;
+    border-radius: 24px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+}
+
+.s_card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    padding: 15px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.s_card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.s_card-body {
+    position: relative;
+    width: 100%;
+    flex: 1 1 auto;
+}
+
+.s_card-body a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.i_col {
+    gap: 8px;
+}
+
+.i_row {
+    display: flex;
+    gap: 8px;
+}
+
+.flex-dic-col {
+    flex-direction: column;
+}
+
+
+/* .s_container {
+    max-width: $desktop + $gutter * 2;
+    padding-right: $gutter;
+    padding-left: $gutter;
+    margin: 0 auto;
+} */
+
+
+/* .row {
+    margin-left: -$gutter-col;
+    margin-right: -$gutter-col;
+    display: flex;
+    @include up-desktop {
+        flex-wrap: wrap;
+    }
+    &--center {
+        justify-content: center;
+    }
+    &--space-between {
+        justify-content: space-between;
+    }
+} */
+
+.white {
+    color: white;
+}
+
+.just-center {
+    width: 100%;
+    text-align: center;
+}
+
+.mt-1i {
+    margin-top: 20px !important;
+}
+
+@media (max-width:576px) {
+    .developer__row {
+        flex-direction: column;
+    }
+}
+
+.margin-left-i {
+    margin-left: unset !important;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.fw-nw {
+    flex-wrap: nowrap;
+}
+
+.justify {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mauto {
+    margin: auto;
+}
+
+.tc {
+    text-align: center;
+}
+
+.justify-s {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dis-f {
+    display: flex;
+}
+
+.fw-w {
+    flex-wrap: wrap;
+}
+
+.fd-r {
+    flex-direction: row;
+}
+
+.col-gap-10 {
+    column-gap: 10px
+}
+
+.row-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex1 {
+    display: flex;
+    margin-bottom: 34px;
+}
+
+.fill {
+    flex: 1;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.gap {
+    gap: 10px;
+}
+
+.gap-4 {
+    gap: 30px;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.middle {
+    align-items: center;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.mb {
+    margin-bottom: 10px;
+}
+
+.mb-1 {
+    margin-bottom: 20px;
+}
+
+.mt {
+    margin-top: 10px;
+}
+
+.mt-1 {
+    margin-top: 20px;
+}
+
+.mt-2 {
+    margin-top: 30px;
+}
+
+.mt-3 {
+    margin-top: 40px;
+}
+
+.mt-4 {
+    margin-top: 50px;
+}
+
+.pl {
+    padding-left: 10px;
+}
+
+.pl-1 {
+    padding-left: 20px;
+}
+
+.pl-2 {
+    padding-left: 30px;
+}
+
+.pl-3 {
+    padding-left: 40px;
+}
+
+.pl-4 {
+    padding-left: 50px;
+}
+
+.pl-5 {
+    padding-left: 60px;
+}
+
+.pl-6 {
+    padding-left: 70px;
+}
+
+.btn_card {
+    position: absolute;
+    bottom: 10px;
+    background: #25262B;
+    border-radius: 8px;
+}
+
+.loadingWrapper {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
